@@ -1,0 +1,27 @@
+Recursion:
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function. 
+
+example: Towers of Hanoi (TOH),DFS of Graph etc.
+
+Need of recursion:
+we can reduce the length of our code and make it easier to read and write. 
+ For example; The Factorial of a number.
+
+Algorithm: Steps
+Step1 - Define a base case:
+Step2 - Define a recursive case:
+Step3 - Ensure the recursion terminates:
+step4 - Combine the solutions:
+
+
+How recursion stored in memory.?
+The recursive function uses LIFO (LAST IN FIRST OUT) Structure just like the stack data structure.
+
+code of recursion:
+int fact(int n)
+{
+    if (n < = 1) // base case
+        return 1;
+    else    
+        return n*fact(n-1);    
+}
